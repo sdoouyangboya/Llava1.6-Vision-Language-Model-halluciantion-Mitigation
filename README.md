@@ -49,7 +49,7 @@ gdown https://drive.google.com/uc?id=1pWkxE2kqpys1VdwBi99ZXN6-XY5SqhwU
 training: finetune.sh
 
 ### DPO
-https://huggingface.co/datasets/juliozhao/hadpo-data/tree/main/hadpo/llava-v1.5
+data:https://huggingface.co/datasets/juliozhao/hadpo-data/tree/main/hadpo/llava-v1.5
 
 training: dpo.sh
 
