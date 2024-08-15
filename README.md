@@ -24,8 +24,8 @@ Chat about images using LLaVA without the need of Gradio interface. It also supp
 
 ```Shell
 python -m llava.serve.cli \
-    --model-path liuhaotian/llava-v1.5-7b \
-    --image-file "https://llava-vl.github.io/static/images/view.jpg" \
+    --model-path \
+    --image-file  \
     --load-4bit
 ```
 
@@ -57,4 +57,11 @@ training: dpo.sh
 ## Evaluation based on Gaive benchamrk
 
 gaive_eval.sh
+
+## Result
+| Model  | Gaive accuracy |
+|----------|----------|
+| llava.1.6 | 5.41 |
+| llava.1.6_finetung | 6.19 |
+| llava.1.6_finetung_dpo | 6.46 | 
 
