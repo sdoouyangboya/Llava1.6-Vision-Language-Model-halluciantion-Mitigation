@@ -65,3 +65,6 @@ gaive_eval.sh
 | llava.1.6_finetung | 6.19 |
 | llava.1.6_finetung_dpo | 6.46 | 
 
+## Demo:
+https://www.loom.com/share/8154640926874bacaa83ffb91fc9be74
+
